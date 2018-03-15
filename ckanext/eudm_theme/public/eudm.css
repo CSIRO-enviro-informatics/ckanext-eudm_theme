@@ -1,23 +1,46 @@
+body {
+   color: #066d57
+}
+
+body :link, body :visited {
+   color: #066d57
+}
+
+h1, h2, h3, h4, h5 {
+   color: #066d57
+}
+
+.toolbar .breadcrumb a {
+  color: rgba(0, 102, 102, 0.8);
+}
+
+.search-form h2 {
+  color: rgba(0, 102, 102, 0.8);
+}
+
+
 /* =====================================================
    The "account masthead" bar across the top of the site
    ===================================================== */
 
 .account-masthead {
-    background-color: rgb(40, 40, 40);
+    background: none;
+    background-color: white;
 }
 /* The "bubble" containing the number of new notifications. */
 .account-masthead .account .notifications a span {
-  background-color: black;
+  background: none;
+  background-color: white;
 }
 /* The text and icons in the user account info. */
 .account-masthead .account ul li a {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(0, 102, 102, 0.8);
 }
 /* The user account info text and icons, when the user's pointer is hovering
    over them. */
 .account-masthead .account ul li a:hover {
-  color: rgba(255, 255, 255, 0.7);
-  background-color: black;
+  color: rgba(0, 102, 102, 0.9);
+  background-color: white;
 }
 
 
@@ -25,19 +48,38 @@
    The main masthead bar that contains the site logo, nav links, and search
    ======================================================================== */
 
+.logo img {
+   height: 50px;
+}
+[role=main], .main {
+   background: white;
+}
+
+.main {
+   background: white;
+}
+
 .masthead {
-  background-color: #3d3d3d;
+  /*background-color: #3d3d3d;*/
+  background: none;
+  background-color: white;
 }
 /* The "navigation pills" in the masthead (the links to Datasets,
    Organizations, etc) when the user's pointer hovers over them. */
 .masthead .navigation .nav-pills li a:hover {
-  background-color: rgb(48, 48, 48);
-  color: white;
+  background-color: white;
+  color: black;
 }
 /* The "active" navigation pill (for example, when you're on the /dataset page
    the "Datasets" link is active). */
 .masthead .navigation .nav-pills li.active a {
-  background-color: rgb(74, 74, 74);
+  background-color: white;
+  color: rgba(0, 102, 102, 0.8);
+}
+
+.masthead .nav>li>a, .masthead .nav>li>a:focus, .masthead .nav>li>a:hover, .masthead .nav>.active>a, .masthead .nav>.active>a:hover, .masthead .nav>.active>a:focus {
+  background-color: white;
+  color: rgba(0, 102, 102, 0.8);
 }
 /* The "box shadow" effect that appears around the search box when it
    has the keyboard cursor's focus. */
@@ -59,6 +101,11 @@
    boxes. */
 .hero .box {
   border: none;
+}
+
+.hero {
+  background: none;
+  background-color: white;
 }
 /* Change the colors of the "Search Your Data" box. */
 .homepage .module-search .module-content {
@@ -89,15 +136,23 @@
 
 .site-footer,
 body {
-  background-color: rgb(40, 40, 40);
+  background-color: white;
 }
+
+
+
+
 /* The text in the footer. */
 .site-footer,
 .site-footer label,
 .site-footer small {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(0, 102, 102, 0.8);
 }
 /* The link texts in the footer. */
 .site-footer a {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(0, 102, 102, 0.9);
+}
+
+.attribution .ckan-footer-logo {
+   background: url("/ckan-logo-footer-dark.png") no-repeat top left
 }
