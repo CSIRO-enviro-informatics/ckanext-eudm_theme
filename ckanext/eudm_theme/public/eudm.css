@@ -1,5 +1,6 @@
 body {
-   color: #066d57
+   color: #066d5;
+   font-family: 'Montserrat', sans-serif;
 }
 
 body :link, body :visited {
@@ -193,4 +194,79 @@ body {
 .form-horizontal .control-label {
    width: 250px;
    padding-right: 5px;
+}
+
+.homepage.layout-eudm {
+   background-color:white;
+}
+
+.homepage.layout-eudm h3.eudm{
+   color: #3F4854;
+   font-size: 2rem;
+   font-weight: 400;
+}
+
+
+.homepage.layout-eudm p{
+   color: #3F4854;
+   font-size: 1.5rem;
+   font-weight: 400;
+}
+
+
+
+.footer-content {
+   text-align: center;
+}
+
+.footer-content span {
+   padding: 5px 5px;
+}
+
+footer.site-footer {
+   width:100%;
+   height:60px;
+   background-color: #FFFFFA;
+}
+
+.eudm-homepage-search {
+}
+
+.eudm-homepage-search form div input {
+   font-size: 1.125rem;
+   font-weight: 400;
+   padding-top: 16px  !important;
+   padding-left: 16px  !important;
+   padding-bottom: 16px  !important;
+   margin-top: 16px  !important;
+   margin-bottom: 16px  !important;
+   margin-left: 0px  !important;
+   margin-right: 500px  !important;
+}
+
+.eudm-carousel {
+   min-height: 400px;
+   padding: 50px 50px;
+}
+
+.carousel-inner .item{ 
+   display: flex;
+
+   margin: 0px 70px;
+}
+
+.carousel-inner .item div{ 
+   flex: 1;
+   padding: 5px 5px;
+}
+.carousel-inner .item h2 {
+   color: #3F4854;
+   font-size: 1.5rem;
+   font-weight: 400;
+}
+.carousel-inner .item p {
+   color: #3F4854;
+   font-size: 1rem;
+   font-weight: 400;
+   line-height: 1.6;
 }

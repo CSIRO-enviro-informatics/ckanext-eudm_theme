@@ -1,0 +1,56 @@
+{% extends "page.html" %}
+{% set homepage_style = ( g.homepage_style or '1' ) %}
+
+
+{% block content %}
+  <div class="homepage layout-eudm">
+    <div class="container">
+      {{ self.flash() }}
+    </div>
+
+    <div class="container">
+      <h3 class='eudm'>Australia's Energy Use Data Model</h3>
+    </div>
+
+    <div class="container eudm-homepage-search">
+      <form class="section site-search simple-input" action="{% url_for controller='package', action='search' %}" method="get">
+        <div class="field ">
+          <label for="field-sitewide-search">{% block header_site_search_label %}{{ _('Search Datasets') }}{% endblock %}</label>
+          <input id="field-sitewide-search" type="text" class="form-control" name="q" placeholder="{{ _('Search') }}" />
+          <button class="btn-search" type="submit"><i class="fa fa-search"></i></button>
+        </div>
+      </form>
+    </div>
+
+    <div class="container eudm-homepage">
+      <p> ... or browse <a href="#">by category</a>, or learn more <a href="#">about EUDM</a></p>
+    </div>
+
+    <div class="container eudm-carousel">
+        <div id="myCarousel" class="carousel slide">
+          <ol class="carousel-indicators">
+             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+             <li data-target="#myCarousel" data-slide-to="1"></li>
+             <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+          <!-- Carousel items -->
+          <div class="carousel-inner">
+            <div class="active item">
+               <div>
+                  <h3>Unsure where to start?</h3>
+                  <p>EUDM brings together energy data, research and reporting from across the sector and makes it available to all from one central location.  We are in our pilot phase at the moment, testing out functionality and asking our users what new resources they most need to conduct their research.  But already we have plenty to share!  A great place to start is with our data catalogue, which will help you find resources nearest to your heart.  Click here to get started.</p>
+               </div>
+               <div>
+                  <img src="/where_to_start.jpg"/>
+               </div>
+            </div>
+            <div class="item">...</div>
+            <div class="item">...</div>
+          </div>
+         <!-- Carousel nav -->
+         <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+         <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+</div>
+    </div>
+  </div>
+{% endblock %}
