@@ -1,5 +1,6 @@
 body {
-   color: #066d5;
+   /*color: #066d5;*/
+   color: #F0F0EB;
    font-family: 'Montserrat', sans-serif;
 }
 
@@ -244,8 +245,11 @@ footer.site-footer {
    margin-right: 500px  !important;
 }
 
+.eudm-carousel-holder {
+   background-color: #F0F0EB;
+}
 .eudm-carousel {
-   min-height: 400px;
+   min-height: 650px;
    padding: 50px 50px;
 }
 
@@ -253,6 +257,7 @@ footer.site-footer {
    display: flex;
 
    margin: 0px 70px;
+   background-color: rgb(250, 250, 245) ;
 }
 
 .carousel-inner .item div{ 
@@ -269,4 +274,8 @@ footer.site-footer {
    font-size: 1rem;
    font-weight: 400;
    line-height: 1.6;
+}
+
+.eudm-headline {
+   padding-top: 100px;
 }
