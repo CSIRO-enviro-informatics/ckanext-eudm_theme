@@ -1,6 +1,6 @@
 body {
    /*color: #066d5;*/
-   color: #F0F0EB;
+   /*color: #F0F0EB;*/
    font-family: 'Montserrat', sans-serif;
 }
 
@@ -253,15 +253,18 @@ footer.site-footer {
    padding: 50px 50px;
 }
 
-.carousel-inner .item{ 
-   display: flex;
+.carousel-inner .item { 
 
    margin: 0px 70px;
    background-color: rgb(250, 250, 245) ;
 }
 
-.carousel-inner .item div{ 
-   flex: 1;
+.carousel-content {
+   display: flex;
+}
+
+.carousel-content div{
+   flex: 2;
    padding: 5px 5px;
 }
 .carousel-inner .item h2 {
@@ -278,4 +281,17 @@ footer.site-footer {
 
 .eudm-headline {
    padding-top: 100px;
+}
+
+.carousel-indicators {
+    position: relative;
+    z-index: 5;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.carousel-indicator-wrapper {
+   
+  margin: 0 auto;
+  width: 50px;
 }

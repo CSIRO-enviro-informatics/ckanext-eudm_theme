@@ -31,14 +31,12 @@
   <div class="homepage eudm-carousel-holder">
     <div class="container eudm-carousel">
         <div id="myCarousel" class="carousel slide">
-          <ol class="carousel-indicators">
-             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-             <li data-target="#myCarousel" data-slide-to="1"></li>
-             <li data-target="#myCarousel" data-slide-to="2"></li>
-          </ol>
+
+
           <!-- Carousel items -->
           <div class="carousel-inner">
-            <div class="active item">
+            <div class="active item carousel-item">
+               <div class="carousel-content">
                <div>
                   <h3>Unsure where to start?</h3>
                   <p>EUDM brings together energy data, research and reporting from across the sector and makes it available to all from one central location.  We are in our pilot phase at the moment, testing out functionality and asking our users what new resources they most need to conduct their research.  But already we have plenty to share!  A great place to start is with our data catalogue, which will help you find resources nearest to your heart.  Click here to get started.</p>
@@ -46,13 +44,44 @@
                <div>
                   <img src="/where_to_start.jpg"/>
                </div>
+               </div>
             </div>
-            <div class="item">...</div>
-            <div class="item">...</div>
+            <div class="item">
+               <div class="carousel-content">
+               <div>
+                 <h2>Featured data</h2>
+                 <h3>Zone substation electricity use across Australia</h3>
+                 <p>The EUDM team has brought together up to a decade of half-hourly electricity consumption data for thousands of zone substations across Australia’s electricity distribution systems.  Including data that has never before been publically released, the zone substation dataset is a rich view into the longitudinal load consumption behaviour of Australian electricity users.  The data is presented in a consistent format across distribution businesses and available for free in EUDM.</p>
+               </div>
+               <div>
+                  <img src="/zone_substation_load.jpg"/>
+               </div>
+               </div>
+            </div>
+            <div class="item">
+               <div class="carousel-content">
+               <div>
+                 <h2>Featured data</h2>
+                 <h3>Household energy use surveying</h3>
+                 <p>To explore the complex connections between household energy use, demographics, building characteristics and appliance uptake, the EUDM team recently designed and delivered a series of pilot residential energy surveys in Victoria and Western Australia.  The surveying program has given rise to a collection of data and reports that provide insight into effective survey design in this space, methods for maximising surveying uptake, and the nature and characteristics of household energy use seen in participating households.
+                 </p>
+               </div>
+               <div>
+                  <img src="/household_energy_survey.jpg"/>
+               </div>
+               </div>
+            </div>
           </div>
          <!-- Carousel nav -->
          <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
          <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+         <div class="carousel-indicator-wrapper">
+          <ol class="carousel-indicators">
+             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+             <li data-target="#myCarousel" data-slide-to="1"></li>
+             <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+         </div>
        </div>
     </div>
   </div>
