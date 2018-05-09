@@ -1,6 +1,6 @@
 body {
    /*color: #066d5;*/
-   /*color: #F0F0EB;*/
+   background-color: #F0F0EB;
   background-color: white !important;
    font-family: 'Montserrat', sans-serif;
 }
@@ -293,7 +293,50 @@ footer.site-footer {
 }
 
 .carousel-indicator-wrapper {
-   
   margin: 0 auto;
   width: 50px;
+}
+
+.container.eudm-about-header {
+}
+
+.about-header-row {
+  width: 100%;
+  background-color:white;
+}
+
+.about-content-row {
+  width: 100%;
+   background-color: #F0F0EB;
+}
+
+.eudm-about-header {
+  padding-top: 80px;
+  min-height: 200px;
+
+  margin: 0 auto;
+
+}
+
+.eudm-about-header h2 {
+  font-size:  2rem;
+  font-weight: 400;
+}
+
+.eudm-about-content p {
+   padding: 10px 50px;  
+   line-height: 1.6;
+
+}
+.eudm-about-content {
+  position: relative;
+  top: -80px;
+  padding-top: 20px;
+  margin: 0 auto;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .1), 0 1px 3px 0 rgba(0, 0, 0, .05);
+  font-size: 16px;
+
+ 
+  background-color: rgb(250, 250, 245) ;
+
 }
