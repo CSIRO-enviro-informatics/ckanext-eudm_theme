@@ -1,6 +1,7 @@
 body {
    /*color: #066d5;*/
    /*color: #F0F0EB;*/
+  background-color: white !important;
    font-family: 'Montserrat', sans-serif;
 }
 
@@ -169,7 +170,7 @@ div.tags {
 
 .site-footer,
 body {
-  background-color: white;
+  background-color: white ;
 }
 
 
@@ -199,6 +200,7 @@ body {
 
 .homepage.layout-eudm {
    background-color:white;
+   padding-bottom: 30px;
 }
 
 .homepage.layout-eudm h3.eudm{
