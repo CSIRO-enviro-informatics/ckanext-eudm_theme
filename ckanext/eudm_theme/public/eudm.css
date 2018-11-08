@@ -1,8 +1,14 @@
+html, body {
+  height: 100%;
+min-height: 100%;}
 body {
-   /*color: #066d5;*/
-   background-color: #F0F0EB;
+  /*color: #066d5;*/
   background-color: white !important;
-   font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+
+  display: flex;
+  flex-direction: column;
+
 }
 
 body :link, body :visited {
@@ -228,8 +234,17 @@ body {
 
 footer.site-footer {
    width:100%;
-   height:60px;
-   background-color: #FFFFFA;
+   height:50px;
+}
+
+footer {
+  flex-shrink:0;
+
+}
+
+.content-wrapper{
+  background-color: white !important;
+   flex: 1 0 auto;
 }
 
 .eudm-homepage-search {
