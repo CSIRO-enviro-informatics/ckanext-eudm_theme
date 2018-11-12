@@ -355,3 +355,26 @@ footer {
   background-color: rgb(250, 250, 245) ;
 
 }
+
+.primary-full-width {
+   background-color: white;
+}
+
+.dataset-resource-form .stages {
+   margin: -40px -25px 20px;
+} 
+
+.control-full input, .control-full select, .control-full textarea {
+   width: 500px;
+}
+.editor .editor-info-block {
+   margin-left:  125px;
+   width: 498px;
+   padding-right: 0px;
+   padding-left: 0px;
+}
+
+.slug-preview {
+   margin-left: 250px;
+   line-height: 3;
+}
