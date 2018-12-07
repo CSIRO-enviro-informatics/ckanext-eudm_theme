@@ -36,6 +36,7 @@ ckanext-eudm_theme
    What does it do? What features does it have?
    Consider including some screenshots or embedding a video!
 
+Look and Feel theming for CSIRO Energy Use Data Model internal CKAN metadata instance
 
 ------------
 Requirements
