@@ -3,6 +3,9 @@
 {% block styles %}
   {{ super() }}
   <link rel="stylesheet" href="/eudm.css" />
+
+  {% resource 'eudm_theme/eudm_theme_helper.js' %}
+
 {% endblock %}
 
 {% block head_extras %}
