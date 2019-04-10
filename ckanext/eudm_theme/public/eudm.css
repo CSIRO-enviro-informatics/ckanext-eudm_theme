@@ -198,6 +198,12 @@ body {
 }
 
 
+/* fix layout of form controls - particularly file upload */
+@media (min-width: 768px) {
+   .form-horizontal .controls {
+      margin-left: 240px;
+   }
+}
 
 .form-horizontal .control-label {
    width: 250px;
@@ -367,6 +373,7 @@ footer {
 .control-full input, .control-full select, .control-full textarea {
    width: 500px;
 }
+
 .editor .editor-info-block {
    margin-left:  125px;
    width: 498px;
